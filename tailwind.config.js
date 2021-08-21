@@ -24,6 +24,15 @@ module.exports = {
           500: "#0f1115",
           700: "#202125",
         },
+        Giant: {
+         DEFAULT: "#AD5C51"
+        },
+        Apricot: {
+          DEFAULT:"#F4CBB2"
+          },
+        instagram: {
+          DEFAULT: "#8a3ab9"
+        },
       },
     },
   },
