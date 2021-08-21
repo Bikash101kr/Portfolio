@@ -62,8 +62,10 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
+          <a href="https://goo.gl/maps/ogCv812KjMEYyuqJ9">
           <GoLocation className="mr-3 text-blue-600 cursor-pointer" 
           onClick={() => window.open("https://goo.gl/maps/ogCv812KjMEYyuqJ9")}/>
+          </a>
           <span>Kathmandu, Nepal</span>
         </div>
         </div>
@@ -73,12 +75,14 @@ const Sidebar = () => {
          style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
         >
         <div className="flex items-center justify-center my-5 md:w-full ">
+          
           <AiFillPhone className="w-6 h-6 mr-3 text-green-500 cursor-pointer"
           onClick={() => window.open("tel:+9779860196032")}/>
           <span >+977- 9860196032/9810019824</span>
         </div>
 
         <div className="flex items-center justify-center my-5 md:w-full ">
+          
           <AiFillMail className="w-6 h-6 mr-3 text-pink-700 cursor-pointer" 
           onClick={() => window.open("mailto:dhakalbikash0@gmail.com")}/>
           <span>dhakalbikash0@gmail.com</span>
@@ -99,7 +103,7 @@ const Sidebar = () => {
       </button> */}
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 "
+        className="w-6/12 px-3 py-2 my-4 font-sans font-bold text-white bg-black rounded-full cursor-pointer font bg-gradient-to-r from-purple-600 to-pink-400 focus:outline-none hover:scale-105 "
       >
         {/* //TODO remove bg black */}
         Toggle Theme
