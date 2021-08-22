@@ -1,11 +1,11 @@
 import { RiComputerLine } from "react-icons/ri";
-import { FaArtstation, FaPhotoVideo, FaServer } from "react-icons/fa";
+import { FaAdobe, FaArtstation, FaCss3, FaJava, FaJs, FaNodeJs, FaPhotoVideo, FaPython, FaReact, FaServer } from "react-icons/fa";
 import { AiFillLike, AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdArtTrack, MdDeveloperMode, MdDevicesOther, MdNotInterested } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
 
-import { BsCircleFill } from "react-icons/bs";
-import { GiDeliveryDrone, GiEternalLove, GiHabitatDome, GiHobbitDoor, GiHobbitDwelling, GiLoveInjection, GiLoveMystery, GiLovers } from "react-icons/gi";
+import { BsBootstrap, BsCircleFill } from "react-icons/bs";
+import { GiAndroidMask, GiChaliceDrops, GiDeliveryDrone, GiEternalLove, GiFarmer, GiHabitatDome, GiHobbitDoor, GiHobbitDwelling, GiLoveInjection, GiLoveMystery, GiLovers, GiSharpAxe } from "react-icons/gi";
 import { GoLinkExternal } from "react-icons/go";
 import { workerData } from "worker_threads";
 
@@ -50,69 +50,81 @@ export const services: Service[] = [
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Python",
-    level: "45",
+    name: "C#",
+    //level: "40",
   },
   {
-    Icon: BsCircleFill,
+    Icon: FaJs,
     name: "Java Script",
-    level: "60",
+    //level: "60",
   },
   {
-    Icon: BsCircleFill,
-    name: "React Native",
-    level: "80",
-  },
-  {
-    Icon: BsCircleFill,
+    Icon: FaReact,
     name: "React",
-    level: "70",
+    //level: "80",
   },
   {
-    Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
+    Icon: FaNodeJs,
+    name: "Node",
+    //level: "80",
+  },
+
+  {
+    Icon: FaJava,
+    name: "Java",
+    //level: "40",
   },
   {
-    Icon: BsCircleFill,
+    Icon: FaCss3,
+    name: "Css",
+    //level: "85",
+  },
+  {
+    Icon: BsBootstrap,
     name: "Bootstrap",
-    level: "80",
+    //level: "80",
   },
 ];
 
 export const tools: Skill[] = [
   {
-    Icon: BsCircleFill,
-    name: "Figma",
-    level: "85",
+    Icon: FaAdobe,
+    name: "Adobe XD",
+    //level: "65",
   },
   {
-    Icon: BsCircleFill,
+    Icon: FaAdobe,
     name: "Photoshop",
-    level: "45",
+    ///level: "45",
   },
   {
-    Icon: BsCircleFill,
+    Icon: FaAdobe,
     name: "Illustrator",
-    level: "60",
+    ////level: "40",
   },
   {
-    Icon: BsCircleFill,
+    Icon: GiFarmer,
     name: "Framer",
-    level: "45",
+    //level: "45",
   },
+  {
+    Icon: FaAdobe,
+    name: "Lightroom",
+    //level: "70",
+  },
+  
 ];
 
 export const projects: IProject[] = [
   { 
-    name: "COVID Tracker",
+    name: "Serve Humanity",
     description:
-      "This app shows a statistical view about corona virus over the world",
+      "Through this app user can donate blood and request blood when needed.",
     image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+    deployed_url: "https://github.com/Bikash101kr/BloodDonationWebAppFrontend-Reactjsp/",
+    github_url: "https://github.com/Bikash101kr/BloodDonationWebAppFrontend-Reactjs",
     category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+    key_techs: ["React", "CSS", "Bootstrap"],
   },
   {
     name: "Algorithm Visualizer",
