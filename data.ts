@@ -1,47 +1,50 @@
 import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
-import { MdDeveloperMode } from "react-icons/md";
+import { FaArtstation, FaPhotoVideo, FaServer } from "react-icons/fa";
+import { AiFillLike, AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { MdArtTrack, MdDeveloperMode, MdDevicesOther, MdNotInterested } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
 
 import { BsCircleFill } from "react-icons/bs";
+import { GiDeliveryDrone, GiEternalLove, GiHabitatDome, GiHobbitDoor, GiHobbitDwelling, GiLoveInjection, GiLoveMystery, GiLovers } from "react-icons/gi";
+import { GoLinkExternal } from "react-icons/go";
+import { workerData } from "worker_threads";
 
 export const services: Service[] = [
   {
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful & scalable single & multi-page application using <b> HTML</b>,<b>CSS</b> & <b>React.js</b> ",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "Handle database, server, api using <b>Express </b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "I can develop robust  REST API using <b>Express-REST-API</b>  & <b>Node API</b> ",
   },
-  {
-    Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
-  },
+  // {
+  //   Icon: MdDeveloperMode,
+  //   title: "Competitive Coder",
+  //   about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+  // },
   {
     Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    title: "UI/UX ",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "I can design user interface using <b>Adobe XD</b>  &  <b>Framer</b> ",
   },
-  {
-    Icon: RiComputerLine,
-    title: "Whatever",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
-  },
+  // {
+  //   Icon: MdArtTrack,
+  //   title: "Whatever",
+  //   about:
+  //     " I love to do photography, videography & cinamatic kind of stuff. I have good knowlwdge on <b>Adobe Photoshop, Lightroom, Premiere Pro, Drone Development</b> & <b>Drone Piloting.</b> My love for the<b> Travelling, Reading Books</b> & writting <b>Poetry</b> is eternal.",
+  // },
 ];
 
 export const languages: Skill[] = [
